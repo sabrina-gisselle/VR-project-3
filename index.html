@@ -1,72 +1,74 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Vr-project-3 : ">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Vr-project-3</title>
+    <meta charset="UTF-8">
+    <title>Vr-project-3 by sabrina-gisselle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Vr-project-3</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/sabrina-gisselle/VR-project-3" class="btn">View on GitHub</a>
+      <a href="https://github.com/sabrina-gisselle/VR-project-3/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/sabrina-gisselle/VR-project-3/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/sabrina-gisselle/VR-project-3">View on GitHub</a>
+    <section class="main-content">
+      <h2>
+<a id="project-3---james-terrell-art-exhibition" class="anchor" href="#project-3---james-terrell-art-exhibition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project 3 - James Terrell Art Exhibition</h2>
 
-          <h1 id="project_title">Vr-project-3</h1>
-          <h2 id="project_tagline"></h2>
+<p>The user can walk around a museum that is modeled after the Guggeinhiem. The users can go into four rooms that replicate the work of James Terrell and his work with light. Unlike the typical rules of the museum this environment allows you to alter the art either by color change or change in position. </p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/sabrina-gisselle/VR-project-3/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/sabrina-gisselle/VR-project-3/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<p>Insight goals: Users will appreciate light in a new way which is the main goal of James Terrell. Users will experience James Terrell's art work and appreciate how light can be deceiving. </p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="project-3---james-terrell-art-exhibition" class="anchor" href="#project-3---james-terrell-art-exhibition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project 3 - James Terrell Art Exhibition</h3>
+<h2>
+<a id="components-to-help-with-simulation-sickness" class="anchor" href="#components-to-help-with-simulation-sickness" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Components To Help With Simulation Sickness</h2>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<ul>
+<li>Didn't use HUD </li>
+<li>Removed head bobbing functionality</li>
+<li>Added different texture to the floor vs walls so the user knows their orientation</li>
+<li>Added signs for each room to again orient the user and give them more information. </li>
+<li>Minimal Lag -- Because we are dealing with light we knew that flicker would be harmful so the scene has fewer assets but greater detail on the light components.</li>
+</ul>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h2>
+<a id="rooms" class="anchor" href="#rooms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rooms</h2>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Aten Reign 
+!(<a href="http://hyperallergic.wpengine.netdna-cdn.com/wp-content/uploads/2013/06/Turrell-AtenReign2.jpg">http://hyperallergic.wpengine.netdna-cdn.com/wp-content/uploads/2013/06/Turrell-AtenReign2.jpg</a>)</p>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="cube" class="anchor" href="#cube" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cube</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+<p>!(<a href="http://collections.lacma.org/sites/default/files/remote_images/piction/ma-31339450-WEB.jpg">http://collections.lacma.org/sites/default/files/remote_images/piction/ma-31339450-WEB.jpg</a>)</p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Vr-project-3 maintained by <a href="https://github.com/sabrina-gisselle">sabrina-gisselle</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+<h3>
+<a id="window" class="anchor" href="#window" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Window</h3>
+
+<p>()</p>
+
+<h3>
+<a id="skyspace" class="anchor" href="#skyspace" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skyspace</h3>
+
+<p>!(<a href="http://turrell.utexas.edu/sites/default/files/carousel_images/014_final_edited_web.jpg">http://turrell.utexas.edu/sites/default/files/carousel_images/014_final_edited_web.jpg</a>)</p>
+
+<h2>
+<a id="assests" class="anchor" href="#assests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Assests</h2>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/sabrina-gisselle/VR-project-3">Vr-project-3</a> is maintained by <a href="https://github.com/sabrina-gisselle">sabrina-gisselle</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
